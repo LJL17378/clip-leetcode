@@ -111,6 +111,8 @@ const copyText = (isMarkdown, targetObj) => {
     value = `URL: ${url}\n\n${title}\n\n${text}`;
   }
 
+  value += `\n\n**思路**：\n\n**题解**：\n\`\`\`js\n\n\`\`\`\n`;
+
   // Set the value of the hidden textarea element.
   hiddenElement.value = value;
   // Add the element to the document.

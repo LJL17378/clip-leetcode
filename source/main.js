@@ -1,18 +1,18 @@
 const MAIN_COLOR = "#0CB345";
 const ALT_COLOR = "transparent";
 const TEXT_COLOR = "#ffffff";
-const BUTTON_ACTION_TEXT = "Copied!";
+const BUTTON_ACTION_TEXT = "已复制!";
 const BUTTON_ACTION_WAIT_TIME = 1000;
 const WAIT_TIME = 1000;
 
 // Object containing button text and extra styles
 const BUTTON_MAP = {
   copy: {
-    text: "Copy",
+    text: "复制",
     extra: "margin-right: 1rem; width: 80px;",
   },
   copyMarkdown: {
-    text: "Copy Markdown",
+    text: "复制 Markdown",
     extra: "width: 128px;",
   },
 };
